@@ -1,0 +1,102 @@
+
+.button {
+	color: white; 
+	background-color:seagreen;
+	text-align: center;
+	width: 500px;
+	height: 50px;
+	margin: auto;
+	border-style:none;
+	
+	background-image: url();
+	}
+
+.login{
+	width: 500px;
+	height: 20px;
+	margin: auto;
+	background-color:palegreen;
+	border-style: none;
+}
+input{
+	border-radius: 20px ;
+	background-color: lightgrey;
+	border-style: none;
+	margin: auto;
+	width: 50px;
+}
+input:hover{
+	border-radius: 20px ;
+	background-color: lightseagreen;
+	border-style: none;
+	margin: auto;	
+}
+input:active{
+	border-radius: 20px ;
+	background-color: darkolivegreen;
+	border-style: none;
+	margin: auto;	
+}
+
+.title{
+	font-family: 'Tangerine', serif;
+	font-size: 100px;
+	width: 50px;
+	
+}
+
+#checkbox{
+	width: 20px;
+	height: 10px;
+}
+
+.text{
+	
+}
+
+#loginmain{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: antiquewhite;
+	
+	background-color: antiquewhite;
+	 margin: auto; 
+	 width: 500px;
+	 height: 500px;
+
+}
+
+#nametable{
+
+}
+
+#footer{
+	background-color: lightgrey; 
+	height: 40px; 
+	width: 500px;
+	font-style: italic;
+
+}
+#general{
+	width: 500px;
+	margin: auto;
+}
+
+*{
+	font-family:"Courier New", Times, Monospace;
+	background-color: floralwhite;
+}
+
+a:link{
+	color: yellowgreen;
+}
+a:visited{
+	color: royalblue;
+}
+a:hover{
+	color: darkgoldenrod;
+}
+a:active{
+	color: palevioletred;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPT>
+<html>  
+  <head>
+    <meta charset="utf-8">
+  <meta name = "viewport" contents = "width = device - width, initial - scale = 1.o">
+  <link rel = "stylesheet" href = "logintest.css">
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  <script src="jquery-3.5.1.min.js"></script>
+
+  <script $(function() {
+      
+    });></script>
+
+    <script src= "jstest.js">
+  </script>
+
+  </head> 
+  <body id="loginmain">
+
+    <h1 class="title">Login</h1>
+    <hr>
+    <p>Please login first.</p>
+
+      <label for ="uname">Email:</lable><br>
+      <input type="text" name="un" class = "login" id="uname"><br>
+
+      <label for ="pw">Password:</lable><br>
+      <input type="password" name="pw" class = "login" id="pswd"><br><br>
+
+      <input type="submit" id="button1" value="Login" class = "button">     
+    </form> 
+    
+    <p id = "print">
+      
+    </p>
+
+ </body> 
+
+ <script>
+
+        
+  document.getElementById("button1").addEventListener("click",function(){
+      var uName = document.getElementById("uname").value;
+      var pswd = document.getElementById("pswd").value;   
+      uName == "admin" && pswd == "admin" ? alert("登录成功！") : alert("wasted！");
+      
+  })
+  
+  
+</script>
+
+</html>
+
+
+
+
+
+<!--
+<table id="nametable">
+      <tr>
+        <th style="width = 50%"><label for = "FName"> First Name: </label></th>
+        <th style="width = 50%"><label for = "LName"> Last Name: </label></th>
+      </tr>
+      <tr>
+      <th><input type = "text" name="Firstname" placeholder="Enter First Name" class="login"></th>
+      <th><input type = "text" name="Email" placeholder="Enter Last Name" class="login"></th>
+      </tr><br>
+      </table>
+      -->
